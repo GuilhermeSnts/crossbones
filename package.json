@@ -1,0 +1,24 @@
+{
+  "name": "crossbones",
+  "version": "0.1.0",
+  "description": "A cli tool to scaffold projects, modules and components ",
+  "main": "build/index.js",
+  "author": "Guilherme Santos",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "commander": "^9.0.0",
+    "fs-extra": "^10.0.1",
+    "kolorist": "^1.5.1",
+    "ts-node": "^10.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  }
+}
